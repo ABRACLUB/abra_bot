@@ -8,7 +8,7 @@ from aiogram.filters import CommandStart
 from aiogram.fsm.storage.memory import MemoryStorage
 
 logging.basicConfig(level=logging.INFO)
-BOT_TOKEN = os.getenv("BOT_TOKEN", "ВСТАВЬ_ТОКЕН_СЮДА")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8761840516:AAFWjU4F6-weSjiv9bLMLeG6U439SRmRnw0")
 
 bot = Bot(token=BOT_TOKEN)
 dp  = Dispatcher(storage=MemoryStorage())
