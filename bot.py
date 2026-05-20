@@ -552,7 +552,7 @@ async def join_club(cb: CallbackQuery):
     await cb.message.answer(
         "Ссылка для вступления:",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[[
-            InlineKeyboardButton(text="🚀 Вступить в ABRA CLUB", url="https://t.me/ТВОЙ_КАНАЛ")
+            InlineKeyboardButton(text="🚀 Вступить в ABRA CLUB", url="https://t.me/+W9GuYQ-qL_0zNzli")
         ]])
     )
     await cb.answer()
